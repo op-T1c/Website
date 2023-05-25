@@ -1,0 +1,15 @@
+var selected;var urlstring=new Array(null,null,null,null);function off(linkID){document.getElementById("menuTip").style.display="none";document.images['logo'].style.opacity=1;}
+function on(text){document.getElementById("menuTip2").innerHTML=text;document.images['logo'].style.opacity=.5;document.getElementById("menuTip").style.display="";}
+function addToMenu(id,href,menu,text,active){if(href==null){var newElement=document.createElement('div');}else{var newElement=document.createElement('a');newElement.setAttribute('href',href);}
+if(active){newElement.setAttribute('class','active');}
+newElement.innerHTML=text;menu.appendChild(newElement);}
+function showSubMenu(){document.getElementById('menuDivider1').style.display='block';document.getElementById('menuDivider2').style.display='block';return document.getElementById('subMenu');}
+function setHeaderAd(){if(window.innerWidth>990){var oldParent=document.getElementById('headerAdContainerInline');var newParent=document.getElementById('headerAdContainerFixed');}else{var oldParent=document.getElementById('headerAdContainerFixed');var newParent=document.getElementById('headerAdContainerInline');}
+if(oldParent!=null&&newParent!=null&&oldParent.childNodes.length>0){while(oldParent.childNodes.length){newParent.appendChild(oldParent.firstChild);}}}
+function setOgTitle(title){var meta=document.querySelector('meta[property="og:title"]');if(meta==null){meta=document.createElement('meta');meta.setAttribute('property','og:title');document.head.appendChild(meta);}
+meta.setAttribute('content',title);}
+function setOgDescription(description){var meta=document.querySelector('meta[property="og:description"]');if(meta==null){meta=document.createElement('meta');meta.setAttribute('property','og:description');document.head.appendChild(meta);}
+meta.setAttribute('content',description);}
+function setDescription(description){var meta=document.querySelector('meta[name="description"]');if(meta==null){meta=document.createElement('meta');meta.setAttribute('name','description');document.head.appendChild(meta);}
+meta.setAttribute('content',description);}
+window.addEventListener('resize',setHeaderAd);window.addEventListener('DOMContentLoaded',setHeaderAd);
