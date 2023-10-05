@@ -312,8 +312,8 @@ a{
 
 	.dislike{
 		position: absolute;
-		width: 325px;
-		left: -20px;
+		width: 300px;
+		left: -5px;
 		top: 110%;
 		border-radius: 5%;
 	}
@@ -531,7 +531,7 @@ a{
 	}
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) and (min-width:1024px){
 
 	.dislike{
 		position: absolute;
