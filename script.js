@@ -188,8 +188,8 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
     displayText();
   }
 
-  setTimeout(showResults,31000);
-  setTimeout(displayText,31000);
+  setTimeout(showResults,10000);
+  setTimeout(displayText,10000);
 
   function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
@@ -210,7 +210,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
   }
   
   window.onload = function () {
-    var minutes = 30 * 1,
+    var minutes = 30 * 3,
         display = document.querySelector('#time');
     startTimer(minutes, display);
   };
