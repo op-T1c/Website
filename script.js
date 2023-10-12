@@ -188,8 +188,8 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
     displayText();
   }
 
-  setTimeout(showResults,10000);
-  setTimeout(displayText,10000);
+  setTimeout(showResults,90000);
+  setTimeout(displayText,90000);
 
   function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
