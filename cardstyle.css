@@ -27,6 +27,33 @@ h1{
 	text-shadow: 3px 2px 0px #000000;
 }
 
+#Quiz{
+	position: relative;
+	top: -70%;
+	left: 1175%;
+	color: red;
+}
+
+#warn{
+	text-align: center;
+	font-size: 25px;
+	color: red;
+	text-shadow: 2px 2px 0px #000000;
+}
+
+#ing{
+	text-align: center;
+	font-size: 15px;
+	text-shadow: 2px 2px 0px #000000;
+}
+
+#start{
+	text-align: center;
+	font-size: 25px;
+	color: Blue;
+	text-shadow: 2px 2px 0px #000000;
+}
+
 h2{
 	font-family: "Nunito Sans";
 	color: #ffffff;
@@ -76,7 +103,7 @@ a{
 	display: inline-grid;
 	grid-template-columns: auto	auto auto;
 	position: relative;
-	top: -5%;
+	top: 5%;
 	left: 26%;
 	gap: 0% 5%;
   }
@@ -200,7 +227,7 @@ a{
 }
 
 .popup .content {
-	max-height: 30%;
+	max-height: 60%;
 	overflow: auto;
 }
 
@@ -229,6 +256,14 @@ a{
 		text-shadow: 3px 2px 0px #000000;
 		font-size: 25px;
 	}
+
+	#Quiz{
+		position: absolute;
+		top: 70%;
+		left: 310%;
+		color: red;
+	}
+	
 
 	.grid-container {
 		position: relative;
@@ -387,6 +422,13 @@ a{
 		font-size: 40px;
 	}
 	
+	#Quiz{
+		position: absolute;
+		top: 2%;
+		left: 10%;
+		color: red;
+	}
+
 	h3{
 		font-family: "Nunito Sans";
 		color: #ffffff;
