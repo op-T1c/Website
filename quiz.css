@@ -221,6 +221,195 @@ a{
 	font-size: 25px;
 }
 
+@media screen and (max-width: 435px)  {
+		#Br{	
+			position: absolute;
+			background-color: #417240;
+			border-radius: 30px;
+			left: 10px;
+			width: 50px; 
+			height: 50px;
+		}
+		
+		#sitetitle{
+			position: absolute;
+			top: -25px;
+			left: 10px;
+			font-size: 40px;
+		}
+
+		#Test1{
+			position: relative;
+			top: 85px;
+			left: 45px;
+			width: 75%;
+			text-align: center;
+			font-size: 23px;
+		}
+
+		#quiz{
+			position: absolute;
+			background-color: #417240;
+			border-radius: 30px;
+			width: 375px; 
+			height: 1200px;
+			top: 70px;
+			left:20px;
+			margin: auto;
+		}
+		
+		#time1{
+			position: fixed;
+			top: 81%;
+			left: 250px;
+			font-family: "Nunito Sans"; 
+			color: #ff0000; 
+			text-shadow: 2px 2px 0px #000000;
+			font-size: 25px;
+		}
+		
+		#time{
+			position: fixed;
+			top: 81%;
+			left: 320px;
+			font-family: "Nunito Sans"; 
+			color: #ff0000; 
+			text-shadow: 2px 2px 0px #000000;
+			font-size: 25px;
+		}
+
+		#hidden{
+			position: relative;
+			top: 18px;
+			left: 100px;
+			width: fit-content;
+			font-family: "Nunito Sans"; 
+			color: #ffffff; 
+			text-shadow: 2px 2px 0px #000000;
+		}
+		
+		.question{
+			position: relative;
+			top: 100px;
+			left: 20px;
+			font-family: "Nunito Sans"; 
+			color: #ffffff; 
+			text-shadow: 2px 2px 0px #000000;
+			font-size: 20px;
+		  }
+		
+		  .answers {
+			position: relative;
+			top: 100px;
+			left: 50px;
+			margin-bottom: 20px;
+			display: grid;
+			grid-template-columns: auto (2, 1);
+			grid-gap: 1px;
+			font-size: 18px;
+			font-family: "Nunito Sans"; 
+		  }
+		
+		  #results{
+			position: fixed;
+			top: 85%;
+			left: 275px;
+			font-size: 18px;
+			width: fit-content;
+			font-family: "Nunito Sans"; 
+			color: #ffffff; 
+			text-shadow: 2px 2px 0px #000000;
+			z-index: 5;
+		  }
+		
+		#submit{
+			position: fixed;
+			top: 85%;
+			left: 55%;
+			font-family: sans-serif;
+			font-size: 20px;
+			background-color:#170d0d;
+			color: #fff;
+			border: 0px;
+			border-radius: 3px;
+			cursor: pointer;
+			z-index: 5;
+		}
+		#submit:hover{
+			background-color: #3b2020;
+		}
+
+		#a1{
+			position: relative;
+			top: 69px;
+			left: 110px;
+			font-size: 15px;
+		}
+		
+		#a2{
+			position: relative;
+			top: 190px;
+			left: 110px;
+			font-size: 15px;
+		}
+		
+		#a3{
+			position: relative;
+			top: 242px;
+			left: 105px;
+			font-size: 15px;
+		}
+		
+		#a4{
+			position: relative;
+			top: 360px;
+			left: 100px;
+			font-size: 15px;
+		}
+		
+		#a5{
+			position: relative;
+			top: 445px;
+			left: 100px;
+			font-size: 15px;
+		}
+		
+		#a6{
+			position: relative;
+			top: 530px;
+			left: 100px;
+			font-size: 15px;
+		}
+		
+		#a7{
+			position: relative;
+			top: 590px;
+			left: 100px;
+			font-size: 15px;
+		}
+		
+		#a8{
+			position: relative;
+			top: 650px;
+			left: 70px;
+			font-size: 15px;
+		}
+		
+		#a9{
+			position: relative;
+			top: 715px;
+			left: 100px;
+			font-size: 15px;
+		}
+		
+		#a10{
+			position: relative;
+			top: 800px;
+			left: 100px;
+			font-size: 15px;
+		}
+}
+
 body{
 	display:block !important
-}
+}	
