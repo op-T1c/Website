@@ -1,0 +1,226 @@
+body{
+	background-color: #170d0d;
+}
+
+#Br{	
+	position: relative;
+	background-color: #417240;
+	border-radius: 30px;
+	width: 4%; 
+	height: 8%;
+}
+
+#sitetitle{
+    position: relative;
+	top: 5px;
+	left: 13px;
+    font-size: 2.5vw;
+	text-align: center;
+	font-family: "Nunito Sans";
+    text-shadow: 3px 2px 0px #000000;
+	color: #ffffff;
+}
+
+h1{
+	font-family: "Nunito Sans";
+	color: #ffffff;
+	text-shadow: 3px 2px 0px #000000;
+}
+
+
+
+h3{
+	font-family: "Nunito Sans";
+	color: #ffffff;
+	text-shadow: 3px 2px 0px #000000;
+}
+
+h4{
+	font-family: "Nunito Sans";
+	color: #ffffff;
+	text-shadow: 3px 2px 0px #000000;
+}
+
+p{
+	font-family: "Nunito Sans"; 
+	color: #ffffff; 
+	text-shadow: 2px 2px 0px #000000;
+}
+
+a{
+	text-decoration:none
+}
+
+#quiz{
+    position: absolute;
+	background-color: #417240;
+	border-radius: 30px;
+	width: 1000px; 
+	height: 1250px;
+    top: 70px;
+    left: 160px;
+    margin: auto;
+}
+
+#Test1{
+	position: relative;
+	top: 10px;
+    text-align: center;
+}
+
+#time1{
+	position: fixed;
+	top: 78%;
+	left: 930px;
+	font-family: "Nunito Sans"; 
+	color: #ff0000; 
+	text-shadow: 2px 2px 0px #000000;
+	font-size: 30px;
+}
+
+#time{
+	position: fixed;
+	top: 78%;
+	left: 1010px;
+	font-family: "Nunito Sans"; 
+	color: #ff0000; 
+	text-shadow: 2px 2px 0px #000000;
+	font-size: 30px;
+}
+
+#hidden{
+	position: relative;
+	top: 18px;
+	left: 400px;
+	width: fit-content;
+	font-family: "Nunito Sans"; 
+	color: #ffffff; 
+	text-shadow: 2px 2px 0px #000000;
+}
+
+.question{
+	position: relative;
+	top: 100px;
+	left: 20px;
+	font-family: "Nunito Sans"; 
+	color: #ffffff; 
+	text-shadow: 2px 2px 0px #000000;
+	font-size: 25px;
+  }
+
+  .answers {
+	position: relative;
+	top: 100px;
+	left: 50px;
+	margin-bottom: 20px;
+	display: grid;
+	grid-template-columns: auto (2, 1);
+	grid-gap: 1px;
+	font-size: 18px;
+	font-family: "Nunito Sans"; 
+  }
+
+  #results{
+	position: fixed;
+	top: 78%;
+	left: 938px;
+	font-size: 30px;
+	width: fit-content;
+	font-family: "Nunito Sans"; 
+	color: #ffffff; 
+	text-shadow: 2px 2px 0px #000000;
+	z-index: 5;
+	border-color: #417240;
+	border-radius: 10px;
+  }
+
+#submit{
+	position: fixed;
+	top: 85%;
+	left: 70%;
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color:#170d0d;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	z-index: 5;
+}
+#submit:hover{
+	background-color: #3b2020;
+}
+
+#a1{
+	position: relative;
+	font-size: 25px;
+}
+
+#a2{
+	position: relative;
+	top: 69px;
+	left: 110px;
+	font-size: 25px;
+}
+
+#a3{
+	position: relative;
+	top: 138px;
+	left: -15px;
+	font-size: 25px;
+}
+
+#a4{
+	position: relative;
+	top: 206px;
+	left: 135px;
+	font-size: 25px;
+}
+
+#a5{
+	position: relative;
+	top: 275px;
+	left: 135px;
+	font-size: 25px;
+}
+
+#a6{
+	position: relative;
+	top: 345px;
+	left: 125px;
+	font-size: 25px;
+}
+
+#a7{
+	position: relative;
+	top: 388px;
+	left: 210px;
+	font-size: 25px;
+}
+
+#a8{
+	position: relative;
+	top: 433px;
+	left: 210px;
+	font-size: 25px;
+}
+
+#a9{
+	position: relative;
+	top: 476px;
+	left: 370px;
+	font-size: 25px;
+}
+
+#a10{
+	position: relative;
+	top: 520px;
+	left: 50px;
+	font-size: 25px;
+}
+
+body{
+	display:block !important
+}
