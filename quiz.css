@@ -11,77 +11,37 @@ body{
 }
 
 #sitetitle{
-	position: relative;
-	top: 10%;
-	left: 25%;
-	font-size: 2.5vw;
+    position: relative;
+	top: 5px;
+	left: 13px;
+    font-size: 2.5vw;
+	text-align: center;
+	font-family: "Nunito Sans";
+    text-shadow: 3px 2px 0px #000000;
+	color: #ffffff;
 }
 
 h1{
-	position: relative;
-	top: -60px;
-	left: 0%;
-	text-align: center;
 	font-family: "Nunito Sans";
 	color: #ffffff;
 	text-shadow: 3px 2px 0px #000000;
 }
 
-#Quiz{
-	position: relative;
-	top: -70%;
-	left: 1175%;
-	color: red;
-}
 
-#warn{
-	text-align: center;
-	font-size: 25px;
-	color: red;
-	text-shadow: 2px 2px 0px #000000;
-}
-
-#ing{
-	text-align: center;
-	font-size: 15px;
-	text-shadow: 2px 2px 0px #000000;
-}
-
-#start{
-	text-align: center;
-	font-size: 25px;
-	color: Blue;
-	text-shadow: 2px 2px 0px #000000;
-}
-
-h2{
-	font-family: "Nunito Sans";
-	color: #ffffff;
-	text-shadow: 3px 2px 0px #000000;
-	font-size: 2vw;
-}
 
 h3{
 	font-family: "Nunito Sans";
 	color: #ffffff;
 	text-shadow: 3px 2px 0px #000000;
-	font-size: 1.5vw;
 }
 
 h4{
 	font-family: "Nunito Sans";
 	color: #ffffff;
 	text-shadow: 3px 2px 0px #000000;
-	font-size: 1.5vw;
-}
-
-#Cardo{
-	position: relative;
-	font-size: 3vw;
 }
 
 p{
-	
 	font-family: "Nunito Sans"; 
 	color: #ffffff; 
 	text-shadow: 2px 2px 0px #000000;
@@ -91,544 +51,364 @@ a{
 	text-decoration:none
 }
 
-.content{
-	height: fit-content;
+#quiz{
+    position: absolute;
+	background-color: #417240;
+	border-radius: 30px;
+	width: 1000px; 
+	height: 1250px;
+    top: 70px;
+    left: 160px;
+    margin: auto;
+}
+
+#Test1{
+	position: relative;
+	top: 10px;
+    text-align: center;
+}
+
+#time1{
+	position: fixed;
+	top: 78%;
+	left: 930px;
+	font-family: "Nunito Sans"; 
+	color: #ff0000; 
+	text-shadow: 2px 2px 0px #000000;
+	font-size: 30px;
+}
+
+#time{
+	position: fixed;
+	top: 78%;
+	left: 1010px;
+	font-family: "Nunito Sans"; 
+	color: #ff0000; 
+	text-shadow: 2px 2px 0px #000000;
+	font-size: 30px;
+}
+
+#hidden{
+	position: relative;
+	top: 18px;
+	left: 400px;
+	width: fit-content;
 	font-family: "Nunito Sans"; 
 	color: #ffffff; 
 	text-shadow: 2px 2px 0px #000000;
 }
 
-.grid-container {
+.question{
 	position: relative;
-	display: inline-grid;
-	grid-template-columns: auto	auto auto;
-	position: relative;
-	top: 5%;
-	left: 26%;
-	gap: 0% 5%;
+	top: 100px;
+	left: 20px;
+	font-family: "Nunito Sans"; 
+	color: #ffffff; 
+	text-shadow: 2px 2px 0px #000000;
+	font-size: 25px;
   }
 
-  .grid-container > div {
-	text-align: center;
+  .answers {
+	position: relative;
+	top: 100px;
+	left: 50px;
+	margin-bottom: 20px;
+	display: grid;
+	grid-template-columns: auto (2, 1);
+	grid-gap: 1px;
+	font-size: 18px;
+	font-family: "Nunito Sans"; 
   }
 
-
-#Red{
-	position: relative;
-	width: 100%;
-	border-radius: 10%;
-	transition: all 0.3s;
-}
-
-#Red:hover{
-	border-radius: 25%;
-	transform: scale(1.1) rotate(15deg);
-}
-
-#Yellow{
-	border-radius: 10%;
-	transition: all 0.3s;
-}
-
-#Yellow:hover{
-	border-radius: 25%;
-	transform: scale(1.1) rotate(15deg);
-}
-
-#Lime{
-	border-radius: 10%;
-	transition: all 0.3s;
-}
-
-#Lime:hover{
-	border-radius: 25%;
-	transform: scale(1.1) rotate(15deg);
-}
-
-#Purple{
-	border-radius: 10%;
-	transition: all 0.3s;
-}
-
-#Purple:hover{
-	border-radius: 25%;
-	transform: scale(1.1) rotate(15deg);
-}
-
-#Brown{
-	border-radius: 10%;
-	transition: all 0.3s;
-}
-
-#Brown:hover{
-	border-radius: 25%;
-	transform: scale(1.1) rotate(15deg);
-}
-
-#Blue{
-	border-radius: 10%;
-	transition: all 0.3s;
-}
-
-#Blue:hover{
-	border-radius: 25%;
-	transform: scale(1.1) rotate(15deg);
-}
-	
-.dislike{
-	position: absolute;
-	width: 50%;
-	left: 25%;
-	top: 110%;
-	border-radius: 5%;
-}
-  
-.overlay {
+  #results{
 	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: rgba(0, 0, 0, 0.7);
-	transition: opacity 500ms;
-	visibility: hidden;
-	opacity: 0;
-}
-
-.overlay:target {
-	visibility: visible;
-	opacity: 1;
-}
-  
-.popup {
-	margin: 70px auto;
-	padding: 20px;
-	background: #417240;
-	border-radius: 20px;
-	width: 60%;
-	position: relative;
-	top: 1%;
-	transition: all 0.4s;
-}
-  
-.popup .close {
-	position: absolute;
- 	 top: 20px;
-  	right: 30px;
-	transition: all 0.5s;
+	top: 78%;
+	left: 938px;
 	font-size: 30px;
-	font-weight: bold;
-	text-decoration: none;
-	color: #000000;
+	width: fit-content;
+	font-family: "Nunito Sans"; 
+	color: #ffffff; 
+	text-shadow: 2px 2px 0px #000000;
+	z-index: 5;
+	border-color: #417240;
+	border-radius: 10px;
+  }
+
+#submit{
+	position: fixed;
+	top: 85%;
+	left: 70%;
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color:#170d0d;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	z-index: 5;
+}
+#submit:hover{
+	background-color: #3b2020;
 }
 
-.popup .close:hover {
-	color: #e4ffed;
+#a1{
+	position: relative;
+	font-size: 25px;
 }
 
-.popup .content {
-	max-height: 60%;
-	overflow: auto;
+#a2{
+	position: relative;
+	top: 69px;
+	left: 110px;
+	font-size: 25px;
+}
+
+#a3{
+	position: relative;
+	top: 138px;
+	left: -15px;
+	font-size: 25px;
+}
+
+#a4{
+	position: relative;
+	top: 206px;
+	left: 135px;
+	font-size: 25px;
+}
+
+#a5{
+	position: relative;
+	top: 275px;
+	left: 135px;
+	font-size: 25px;
+}
+
+#a6{
+	position: relative;
+	top: 345px;
+	left: 125px;
+	font-size: 25px;
+}
+
+#a7{
+	position: relative;
+	top: 388px;
+	left: 210px;
+	font-size: 25px;
+}
+
+#a8{
+	position: relative;
+	top: 433px;
+	left: 210px;
+	font-size: 25px;
+}
+
+#a9{
+	position: relative;
+	top: 476px;
+	left: 370px;
+	font-size: 25px;
+}
+
+#a10{
+	position: relative;
+	top: 520px;
+	left: 50px;
+	font-size: 25px;
 }
 
 @media screen and (max-width: 435px)  {
+		#Br{	
+			position: absolute;
+			background-color: #417240;
+			border-radius: 30px;
+			left: 10px;
+			width: 50px; 
+			height: 50px;
+		}
+		
+		#sitetitle{
+			position: absolute;
+			top: -25px;
+			left: 10px;
+			font-size: 40px;
+		}
 
+		#Test1{
+			position: relative;
+			top: 85px;
+			left: 45px;
+			width: 75%;
+			text-align: center;
+			font-size: 23px;
+		}
 
-	#Br{	
-		position: absolute;
-		background-color: #417240;
-		border-radius: 30px;
-		left: 10px;
-		width: 50px; 
-		height: 50px;
-	}
-	
-	#sitetitle{
-		position: absolute;
-		top: -25px;
-		left: 10px;
-		font-size: 40px;
-	}
-	
-	h3{
-		font-family: "Nunito Sans";
-		color: #ffffff;
-		text-shadow: 3px 2px 0px #000000;
-		font-size: 25px;
-	}
+		#quiz{
+			position: absolute;
+			background-color: #417240;
+			border-radius: 30px;
+			width: 375px; 
+			height: 1200px;
+			top: 70px;
+			left:20px;
+			margin: auto;
+		}
+		
+		#time1{
+			position: fixed;
+			top: 81%;
+			left: 250px;
+			font-family: "Nunito Sans"; 
+			color: #ff0000; 
+			text-shadow: 2px 2px 0px #000000;
+			font-size: 25px;
+		}
+		
+		#time{
+			position: fixed;
+			top: 81%;
+			left: 320px;
+			font-family: "Nunito Sans"; 
+			color: #ff0000; 
+			text-shadow: 2px 2px 0px #000000;
+			font-size: 25px;
+		}
 
-	#Quiz{
-		position: absolute;
-		top: 70%;
-		left: 310%;
-		color: red;
-	}
+		#hidden{
+			position: relative;
+			top: 18px;
+			left: 100px;
+			width: fit-content;
+			font-family: "Nunito Sans"; 
+			color: #ffffff; 
+			text-shadow: 2px 2px 0px #000000;
+		}
+		
+		.question{
+			position: relative;
+			top: 100px;
+			left: 20px;
+			font-family: "Nunito Sans"; 
+			color: #ffffff; 
+			text-shadow: 2px 2px 0px #000000;
+			font-size: 20px;
+		  }
+		
+		  .answers {
+			position: relative;
+			top: 100px;
+			left: 50px;
+			margin-bottom: 20px;
+			display: grid;
+			grid-template-columns: auto (2, 1);
+			grid-gap: 1px;
+			font-size: 18px;
+			font-family: "Nunito Sans"; 
+		  }
+		
+		  #results{
+			position: fixed;
+			top: 85%;
+			left: 275px;
+			font-size: 18px;
+			width: fit-content;
+			font-family: "Nunito Sans"; 
+			color: #ffffff; 
+			text-shadow: 2px 2px 0px #000000;
+			z-index: 5;
+		  }
+		
+		#submit{
+			position: fixed;
+			top: 85%;
+			left: 55%;
+			font-family: sans-serif;
+			font-size: 20px;
+			background-color:#170d0d;
+			color: #fff;
+			border: 0px;
+			border-radius: 3px;
+			cursor: pointer;
+			z-index: 5;
+		}
+		#submit:hover{
+			background-color: #3b2020;
+		}
 
-	.grid-container {
-		position: relative;
-		display: inline-grid;
-		grid-template-columns: auto	auto;
-		position: relative;
-		top: 15%;
-		left: 0%;
-		gap: 0% 5%;
-	  }
-	
-	  .grid-container > div {
-		text-align: center;
-	  }
-
-	  #Red{
-		width: 70%;
-		border-radius: 10%;
-		transition: all 0.3s;
-	}
-	
-	#Red:hover{
-		border-radius: 25%;
-		transform: scale(1.1) rotate(15deg);
-	}
-	
-	#Yellow{
-		width: 70%;
-		border-radius: 10%;
-		transition: all 0.3s;
-	}
-	
-	#Yellow:hover{
-		border-radius: 25%;
-		transform: scale(1.1) rotate(15deg);
-	}
-	
-	#Lime{
-		width: 70%;
-		border-radius: 10%;
-		transition: all 0.3s;
-	}
-	
-	#Lime:hover{
-		border-radius: 25%;
-		transform: scale(1.1) rotate(15deg);
-	}
-	
-	#Purple{
-		width: 70%;
-		border-radius: 10%;
-		transition: all 0.3s;
-	}
-	
-	#Purple:hover{
-		border-radius: 25%;
-		transform: scale(1.1) rotate(15deg);
-	}
-	
-	#Brown{
-		width: 70%;
-		border-radius: 10%;
-		transition: all 0.3s;
-	}
-	
-	#Brown:hover{
-		border-radius: 25%;
-		transform: scale(1.1) rotate(15deg);
-	}
-	
-	#Blue{
-		width: 70%;
-		border-radius: 10%;
-		transition: all 0.3s;
-	}
-	
-	#Blue:hover{
-		border-radius: 25%;
-		transform: scale(1.1) rotate(15deg);
-	}
-
-	.dislike{
-		position: absolute;
-		width: 300px;
-		left: -5px;
-		top: 110%;
-		border-radius: 5%;
-	}
-
-	.overlay {
-		position: fixed;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		background: rgba(0, 0, 0, 0.7);
-		transition: opacity 500ms;
-		visibility: hidden;
-		opacity: 0;
-	}
-	
-	.overlay:target {
-		visibility: visible;
-		opacity: 1;
-	}
-	  
-	.popup {
-		margin: 70px auto;
-		padding: 20px;
-		background: #417240;
-		border-radius: 20px;
-		height: fit-content;
-		width: 60%;
-		position: relative;
-		top: 20%;
-		transition: all 0.4s;
-	}
-	  
-	.popup .close {
-		position: absolute;
-		  top: 10px;
-		  right: 20px;
-		transition: all 0.5s;
-		font-size: 30px;
-		font-weight: bold;
-		text-decoration: none;
-		color: #000000;
-	}
-	
-	.popup .close:hover {
-		color: #e4ffed;
-	}
-	
-	.popup .content {
-		max-height: 30%;
-		overflow: auto;
-	}
+		#a1{
+			position: relative;
+			top: 69px;
+			left: 110px;
+			font-size: 15px;
+		}
+		
+		#a2{
+			position: relative;
+			top: 190px;
+			left: 110px;
+			font-size: 15px;
+		}
+		
+		#a3{
+			position: relative;
+			top: 242px;
+			left: 105px;
+			font-size: 15px;
+		}
+		
+		#a4{
+			position: relative;
+			top: 360px;
+			left: 100px;
+			font-size: 15px;
+		}
+		
+		#a5{
+			position: relative;
+			top: 445px;
+			left: 100px;
+			font-size: 15px;
+		}
+		
+		#a6{
+			position: relative;
+			top: 530px;
+			left: 100px;
+			font-size: 15px;
+		}
+		
+		#a7{
+			position: relative;
+			top: 590px;
+			left: 100px;
+			font-size: 15px;
+		}
+		
+		#a8{
+			position: relative;
+			top: 650px;
+			left: 70px;
+			font-size: 15px;
+		}
+		
+		#a9{
+			position: relative;
+			top: 715px;
+			left: 100px;
+			font-size: 15px;
+		}
+		
+		#a10{
+			position: relative;
+			top: 800px;
+			left: 100px;
+			font-size: 15px;
+		}
 }
-
-@media screen and (min-width: 768px) and (max-width:1024px) {
-
-
-	#Br{	
-		position: absolute;
-		background-color: #417240;
-		border-radius: 30px;
-		left: 10px;
-		width: 50px; 
-		height: 50px;
-	}
-	
-	#sitetitle{
-		position: absolute;
-		top: -25px;
-		left: 10px;
-		font-size: 40px;
-	}
-	
-	#Quiz{
-		position: absolute;
-		top: 2%;
-		left: 10%;
-		color: red;
-	}
-
-	h3{
-		font-family: "Nunito Sans";
-		color: #ffffff;
-		text-shadow: 3px 2px 0px #000000;
-		font-size: 25px;
-	}
-
-	.grid-container {
-		position: relative;
-		display: inline-grid;
-		grid-template-columns: auto	auto auto;
-		position: relative;
-		top: 25%;
-		width: 100%;
-		left: 0%;
-		gap: 0% 5%;
-	  }
-	
-	  .grid-container > div {
-		text-align: center;
-	  }
-
-	  #Red{
-		width: 70%;
-		border-radius: 10%;
-		transition: all 0.3s;
-	}
-	
-	#Red:hover{
-		border-radius: 25%;
-		transform: scale(1.1) rotate(15deg);
-	}
-	
-	#Yellow{
-		width: 70%;
-		border-radius: 10%;
-		transition: all 0.3s;
-	}
-	
-	#Yellow:hover{
-		border-radius: 25%;
-		transform: scale(1.1) rotate(15deg);
-	}
-	
-	#Lime{
-		width: 70%;
-		border-radius: 10%;
-		transition: all 0.3s;
-	}
-	
-	#Lime:hover{
-		border-radius: 25%;
-		transform: scale(1.1) rotate(15deg);
-	}
-	
-	#Purple{
-		width: 70%;
-		border-radius: 10%;
-		transition: all 0.3s;
-	}
-	
-	#Purple:hover{
-		border-radius: 25%;
-		transform: scale(1.1) rotate(15deg);
-	}
-	
-	#Brown{
-		width: 70%;
-		border-radius: 10%;
-		transition: all 0.3s;
-	}
-	
-	#Brown:hover{
-		border-radius: 25%;
-		transform: scale(1.1) rotate(15deg);
-	}
-	
-	#Blue{
-		width: 70%;
-		border-radius: 10%;
-		transition: all 0.3s;
-	}
-	
-	#Blue:hover{
-		border-radius: 25%;
-		transform: scale(1.1) rotate(15deg);
-	}
-
-	.dislike{
-		position: absolute;
-		width: 325px;
-		left: 100px;
-		top: 110%;
-		border-radius: 5%;
-	}
-
-	.overlay {
-		position: fixed;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		background: rgba(0, 0, 0, 0.7);
-		transition: opacity 500ms;
-		visibility: hidden;
-		opacity: 0;
-	}
-	
-	.overlay:target {
-		visibility: visible;
-		opacity: 1;
-	}
-	  
-	.popup {
-		margin: 70px auto;
-		padding: 20px;
-		background: #417240;
-		border-radius: 20px;
-		height: fit-content;
-		width: 60%;
-		position: relative;
-		top: 10%;
-		transition: all 0.4s;
-	}
-	  
-	.popup .close {
-		position: absolute;
-		  top: 10px;
-		  right: 20px;
-		transition: all 0.5s;
-		font-size: 30px;
-		font-weight: bold;
-		text-decoration: none;
-		color: #000000;
-	}
-	
-	.popup .close:hover {
-		color: #e4ffed;
-	}
-	
-	.popup .content {
-		max-height: 30%;
-		overflow: auto;
-	}
-}
-
-@media screen and (max-width:320px) and (min-width:320px){
-
-	.dislike{
-		position: absolute;
-		width: 250px;
-		left: -10px;
-		top: 110%;
-		border-radius: 5%;
-	}
-}
-
-@media screen and (max-width:375px) and (min-width:375px){
-
-	.dislike{
-		position: absolute;
-		width: 280px;
-		left: -10px;
-		top: 110%;
-		border-radius: 5%;
-	}
-}
-
-@media screen and (max-width:1024px) and (min-width:1024px){
-
-	.dislike{
-		position: absolute;
-		width: 325px;
-		left: 170px;
-		top: 110%;
-		border-radius: 5%;
-	}
-}
-
-@media screen and (min-width:914px) and (max-width:914px){
-
-	.popup {
-		margin: 70px auto;
-		background: #417240;
-		border-radius: 20px;
-		width: 90%;
-		height: fit-content;
-		position: relative;
-		top: -15%;
-		transition: all 0.4s;
-	}
-
-	.dislike{
-		position: absolute;
-		width: 280px;
-		left: 300px;
-		top: 110%;
-		border-radius: 5%;
-	}
-}
-
 
 body{
 	display:block !important
