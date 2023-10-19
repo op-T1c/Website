@@ -122,7 +122,8 @@ p{
         position: relative;
 	    top: 80px;
 	    left: 500px;
-	    width: 500px;}
+	    width: 500px;
+	}
 
 #MainContent {
 
@@ -246,81 +247,20 @@ p{
 	color: pink;
 }
 
-@media screen and (max-width: 435px)  {
+@media screen and (max-width: 425px)  {
 
 	#mainpage{
 		position: relative;
-		top: 80px;
-		left: 60px;
+		top: 85px;
+		left: 50px;
+		width: 320px;
 		font-family: "Nunito Sans";
 		color: #ffffff;
 		text-shadow: 2px 2px 0px #000000;
-		font-size: 24px;
+		font-size: 25px;
 	}
-	
-	h2{
-		font-family: "Nunito Sans";
-		color: #ffffff;
-		text-shadow: 2px 2px 0px #000000;
-	}
-	
-	p{
-		width: fit-content;
-		font-family: "Nunito Sans"; 
-		color: #ffffff; 
-		text-shadow: 2px 2px 0px #000000;
-	}
-	
-	#linkm{
-		font-family: "Nunito Sans";
-		text-shadow: 2px 2px 0px #000000;
-		color: #ffffff;
-		line-height: 30px;
-		text-decoration: none;
-	}
-	
-	#linki{
-		font-family: "Nunito Sans";
-		margin-left: -33px;
-		text-shadow: 2px 2px 0px #000000;
-		color: #ffffff;
-		text-decoration: none;
-	}
-	
-	#linka{
-		font-family: "Nunito Sans";
-		margin-left: -33px;
-		text-shadow: 2px 2px 0px #000000;
-		color: #ffffff;
-		text-decoration: none;
-	}
-	
-	#linkc{
-		font-family: "Nunito Sans";
-		margin-left: -33px;
-		text-shadow: 2px 2px 0px #000000;
-		color: #ffffff;
-		text-decoration: none;
-	}
-	
-	#linkr{
-		font-family: "Nunito Sans";
-		margin-left: -33px;
-		text-shadow: 2px 2px 0px #000000;
-		color: #ffffff;
-		text-decoration: none;
-	}
-	
-	#linkcrd{
-		font-family: "Nunito Sans";
-		margin-left: -33px;
-		text-shadow: 2px 2px 0px #000000;
-		color: #ffffff;
-		text-decoration: none;
-	}
-	
+
 	#Side{
-		display: block;
 		background-color: #417240;
 		border-radius: 30px;
 		line-height: 20px;
@@ -336,7 +276,7 @@ p{
 		position: absolute;
 		top: 350px;
 		left: -5px;
-        width: 400px;
+        width: 380px;
 		margin-left: 20px;
 		margin-top: 0px;
 		text-align: center;
@@ -373,7 +313,7 @@ p{
 		background-color: #417240;
 		border-radius: 30px;
 		height: 400px;
-        width: 315px;
+        width: 300px;
 		padding: 40px;
 		line-height: 1;
 	}
@@ -390,6 +330,7 @@ p{
 		position: absolute;
 		top: -16px;
 		left: 12px;
+		max-width: 100%;
 	}
 	
 	#info{
@@ -449,13 +390,7 @@ p{
 	
 	#bocc{
 		position: absolute;
-		top: 5px;
+		top: -12px;
 		color: pink;
 	}
-
-    html, body {
-        max-width: 100%;
-        overflow-x: hidden;
-    }
 }
-
