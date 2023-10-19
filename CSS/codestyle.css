@@ -1,0 +1,395 @@
+body{
+	background-color: #170d0d;
+}
+
+h1{
+	font-family: "Nunito Sans";
+	color: #ffffff;
+	text-shadow: 2px 2px 0px #000000;
+}
+
+h2{
+	font-family: "Nunito Sans";
+	color: #ffffff;
+	text-shadow: 2px 2px 0px #000000;
+}
+
+p{
+	
+	font-family: "Nunito Sans"; 
+	color: #ffffff; 
+	text-shadow: 2px 2px 0px #000000;
+}
+
+#linkm{
+	font-family: "Nunito Sans";
+	text-shadow: 2px 2px 0px #000000;
+	color: #ffffff;
+	text-decoration: none;
+	position: absolute;
+	top: 16px;
+	left: 6px;
+}
+
+#linki{
+	font-family: "Nunito Sans";
+	margin-left: -33px;
+	text-shadow: 2px 2px 0px #000000;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#linka{
+	font-family: "Nunito Sans";
+	margin-left: -33px;
+	text-shadow: 2px 2px 0px #000000;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#linkc{
+	font-family: "Nunito Sans";
+	margin-left: -33px;
+	text-shadow: 2px 2px 0px #000000;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#linkr{
+	font-family: "Nunito Sans";
+	margin-left: -33px;
+	text-shadow: 2px 2px 0px #000000;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#linkcrd{
+	font-family: "Nunito Sans";
+	margin-left: -33px;
+	text-shadow: 2px 2px 0px #000000;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#Side {
+	background-color: #417240;
+	border-radius: 30px;
+	height: 90px;
+	width: 80px;
+	padding: 40px;
+	position: fixed;
+	top: 100px;
+	left: 20px;
+}
+
+#Br{
+	position: fixed;
+	background-color: #417240;
+	border-radius: 30px;
+	width:50px; 
+	height:50px;
+}
+
+#sitetitle{
+	position: relative;
+	top: -15px;
+	left: 12px;
+	max-width: 100%
+}
+
+#Side2 {
+	background-color: #417240;
+	border-radius: 30px;
+	height: 30px;
+	width: 80px;
+	padding: 40px;
+	position: fixed;
+	top: 290px;
+	left: 20px;
+}
+
+#linkpl{
+	font-family: "Nunito Sans";
+	text-shadow: 2px 2px 0px #000000;
+	color: #ffffff;
+	text-decoration: none;
+	position: absolute;
+	top: 16px;
+	left: 6px;
+}
+
+#linkop{
+	font-family: "Nunito Sans";
+	margin-left: -33px;
+	text-shadow: 2px 2px 0px #000000;
+	color: #ffffff;
+	text-decoration: none;
+    position: absolute;
+    top: 40px;
+}
+
+#linkpy{
+	font-family: "Nunito Sans";
+	margin-left: -33px;
+	text-shadow: 2px 2px 0px #000000;
+	color: #ffffff;
+	text-decoration: none;
+    position: absolute;
+    top: 64px;
+}
+
+#code{
+    position: relative;
+	top: 30px;
+	left: 45%;
+	width: fit-content;
+	font-family: "Nunito Sans";
+	color: #ffffff;
+	text-shadow: 2px 2px 0px #000000;
+}
+
+#pld{
+    position: absolute;
+    top: 170px;
+    left: 230px;
+    width: fit-content;
+    margin-left: 20px;
+    margin-top: 0px;
+    text-align: justified;
+    width: 530px;
+    line-height: 1.3;
+}
+
+#Cplu{
+    position: absolute;
+    top: 220px;
+    left: 360px;
+    width: 600px;
+    border-radius: 30px;
+}
+
+#cinf{
+    position: absolute;
+    top: 560px;
+    left: 275px;
+    margin-left: 20px;
+    margin-top: 0px;
+    text-align: justified;
+    width: 740px;
+    line-height: 1.3;
+    font-size: 18px;
+}
+
+#oop{
+    position: absolute;
+    top: 730px;
+    left: 230px;
+    width: fit-content;
+    margin-left: 20px;
+    margin-top: 0px;
+    text-align: justified;
+    width: 530px;
+    line-height: 1.3;
+}
+
+#Oplu{
+    position: absolute;
+    top: 780px;
+    left: 410px;
+    width: 500px;
+    border-radius: 30px;
+}
+
+#oinf{
+    position: absolute;
+    top: 1170px;
+    left: 275px;
+    margin-left: 20px;
+    margin-top: 0px;
+    text-align: justified;
+    width: 740px;
+    line-height: 1.3;
+    font-size: 18px;
+}
+
+#py{
+    position: absolute;
+    top: 1300px;
+    left: 230px;
+    width: fit-content;
+    margin-left: 20px;
+    margin-top: 0px;
+    text-align: justified;
+    width: 530px;
+    line-height: 1.3;
+}
+
+#pinf{
+    position: absolute;
+    top: 1725px;
+    left: 275px;
+    margin-left: 20px;
+    margin-top: 0px;
+    text-align: justified;
+    width: 740px;
+    line-height: 1.3;
+    font-size: 18px;
+}
+
+#pplu{
+    position: absolute;
+    top: 1350px;
+    left: 300px;
+    width: 700px;
+    border-radius: 30px;
+}
+
+#clue2{
+    position: absolute;
+    top: 1958px;
+    left: 0px;
+    margin-left: 20px;
+    margin-top: 0px;
+    text-align: justified;
+    width: 740px;
+    line-height: 1.3;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 425px)  {
+
+	#Side{
+		background-color: #417240;
+		border-radius: 30px;
+		line-height: 20px;
+		height: 80px;
+		width: 80px;
+		padding: 40px;
+		position: absolute;
+		top: 150px;
+		left: 20px;
+	}
+
+    #Side2{
+        display: none;
+    }
+
+	#Br{	
+		position: absolute;
+		background-color: #417240;
+		border-radius: 30px;
+		width:50px; 
+		height:50px;
+	}
+	
+	#sitetitle{
+		position: absolute;
+		top: -16px;
+		left: 12px;
+		max-width: 100%;
+	}
+
+    #code{
+        position: relative;
+		top: 80px;
+		left: 40%;
+		max-width: fit-content;
+		font-family: "Nunito Sans";
+		color: #ffffff;
+		text-shadow: 2px 2px 0px #000000;
+    }
+    
+    #pld{
+        position: absolute;
+		top: 340px;
+		left: 25px;
+        width: fit-content;
+    }
+    
+    #Cplu{
+        position: absolute;
+        top: 390px;
+        left: 35px;
+        width: 350px;
+        border-radius: 30px;
+    }
+    
+    #cinf{
+        position: absolute;
+		top: 610px;
+		left: 25px;
+        margin-left: 20px;
+        margin-top: 0px;
+        text-align: justified;
+        width: 360px;
+        line-height: 1.3;
+        font-size: 18px;
+    }
+    
+    #oop{
+        position: absolute;
+		top: 900px;
+		left: 25px;
+        width: fit-content;
+    }
+    
+    #Oplu{
+        position: absolute;
+		top: 960px;
+		left: 45px;
+        width: 340px;
+        border-radius: 30px;
+    }
+    
+    #oinf{
+        position: absolute;
+		top: 1230px;
+		left: 25px;
+        margin-left: 20px;
+        margin-top: 0px;
+        text-align: justified;
+        width: 360px;
+        line-height: 1.3;
+        font-size: 18px;
+    }
+    
+    #py{
+        position: absolute;
+		top: 1490px;
+		left: 25px;
+        width: fit-content;
+    }
+    
+    #pinf{
+        position: absolute;
+		top: 1740px;
+		left: 25px;
+        margin-left: 20px;
+        margin-top: 0px;
+        text-align: justified;
+        width: 360px;
+        line-height: 1.3;
+        font-size: 18px;
+    }
+    
+    #pplu{
+        position: absolute;
+		top: 1530px;
+		left: 30px;
+        width: 360px;
+        border-radius: 30px;
+    }
+    
+    #clue2{
+        position: absolute;
+        top: 2000px;
+        left: 120px;
+        margin-left: 20px;
+        margin-top: 0px;
+        text-align: justified;
+        width: 740px;
+        line-height: 1.3;
+        font-size: 18px;
+        width: fit-content;
+    }
+}

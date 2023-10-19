@@ -101,7 +101,7 @@ p{
 	position: relative;
 	top: 80px;
 	left: 42%;
-	max-width: 100%;
+	width: fit-content;
 	font-family: "Nunito Sans";
 	color: #ffffff;
 	text-shadow: 2px 2px 0px #000000;

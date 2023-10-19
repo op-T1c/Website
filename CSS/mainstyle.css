@@ -275,7 +275,7 @@ p{
     #MainContent {
 		position: absolute;
 		top: 350px;
-		left: -5px;
+		left: 0px;
         width: 380px;
 		margin-left: 20px;
 		margin-top: 0px;
@@ -288,7 +288,7 @@ p{
 	#Tri{
 		position: absolute;
 		top: 450px;
-		left: 100px;
+		left: 105px;
 		margin-left: 20px;
 		margin-top: 0px;
 		text-align: center;
@@ -312,7 +312,7 @@ p{
 		left: 15px;
 		background-color: #417240;
 		border-radius: 30px;
-		height: 400px;
+		height: 380px;
         width: 300px;
 		padding: 40px;
 		line-height: 1;
@@ -356,11 +356,12 @@ p{
 	#code{
 		position: relative;
 		top: 80px;
-		left: 45%;
+		left: 25%;
+		max-width: fit-content;
 		font-family: "Nunito Sans";
 		color: #ffffff;
 		text-shadow: 2px 2px 0px #000000;
-	}
+    }
 	
 	#rec{
 		position: relative;
