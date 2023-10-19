@@ -231,8 +231,72 @@ a{
 	overflow: auto;
 }
 
+#linkm{
+	font-family: "Nunito Sans";
+	text-shadow: 2px 2px 0px #000000;
+	color: #ffffff;
+	text-decoration: none;
+	position: absolute;
+	top: 16px;
+	left: 6px;
+}
+
+#linki{
+	font-family: "Nunito Sans";
+	margin-left: -33px;
+	text-shadow: 2px 2px 0px #000000;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#linka{
+	font-family: "Nunito Sans";
+	margin-left: -33px;
+	text-shadow: 2px 2px 0px #000000;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#linkc{
+	font-family: "Nunito Sans";
+	margin-left: -33px;
+	text-shadow: 2px 2px 0px #000000;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#linkr{
+	font-family: "Nunito Sans";
+	margin-left: -33px;
+	text-shadow: 2px 2px 0px #000000;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#linkcrd{
+	font-family: "Nunito Sans";
+	margin-left: -33px;
+	text-shadow: 2px 2px 0px #000000;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#Side {
+	background-color: #417240;
+	border-radius: 30px;
+	height: 90px;
+	width: 80px;
+	padding: 40px;
+	position: fixed;
+	top: 100px;
+	left: 20px;
+}
+
 @media screen and (max-width: 435px)  {
 
+	#Side{
+		display: none;
+	}
 
 	#Br{	
 		position: absolute;
@@ -263,7 +327,6 @@ a{
 		left: 310%;
 		color: red;
 	}
-	
 
 	.grid-container {
 		position: relative;
@@ -405,6 +468,9 @@ a{
 
 @media screen and (min-width: 768px) and (max-width:1024px) {
 
+	#Side{
+		display: none;
+	}
 
 	#Br{	
 		position: absolute;
@@ -577,6 +643,10 @@ a{
 
 @media screen and (max-width:320px) and (min-width:320px){
 
+	#Side{
+		display: none;
+	}
+
 	.dislike{
 		position: absolute;
 		width: 250px;
@@ -587,6 +657,10 @@ a{
 }
 
 @media screen and (max-width:375px) and (min-width:375px){
+
+	#Side{
+		display: none;
+	}
 
 	.dislike{
 		position: absolute;
@@ -599,6 +673,10 @@ a{
 
 @media screen and (max-width:1024px) and (min-width:1024px){
 
+	#Side{
+		display: none;
+	}
+
 	.dislike{
 		position: absolute;
 		width: 325px;
@@ -610,6 +688,10 @@ a{
 
 @media screen and (min-width:914px) and (max-width:914px){
 
+	#Side{
+		display: none;
+	}
+	
 	.popup {
 		margin: 70px auto;
 		background: #417240;
